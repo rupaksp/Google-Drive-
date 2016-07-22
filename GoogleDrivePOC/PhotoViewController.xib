@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PhotoViewController">
+            <connections>
+                <outlet property="imageview" destination="k4V-If-AhM" id="sqa-P5-uH4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="k4V-If-AhM">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="k4V-If-AhM" secondAttribute="height" multiplier="1:1" id="SPg-Kg-oyo"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="SPg-Kg-oyo"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="SPg-Kg-oyo"/>
+                        </mask>
+                    </variation>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="k4V-If-AhM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5tx-Zr-SPj"/>
+                <constraint firstItem="k4V-If-AhM" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Xar-Gi-yWT"/>
+                <constraint firstAttribute="trailing" secondItem="k4V-If-AhM" secondAttribute="trailing" id="db8-MA-Mqy"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="k4V-If-AhM"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="5tx-Zr-SPj"/>
+                    <exclude reference="Xar-Gi-yWT"/>
+                    <exclude reference="db8-MA-Mqy"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="k4V-If-AhM"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="5tx-Zr-SPj"/>
+                    <include reference="Xar-Gi-yWT"/>
+                    <include reference="db8-MA-Mqy"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

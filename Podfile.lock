@@ -1,0 +1,34 @@
+PODS:
+  - GoogleAPIClient/Core (1.0.4):
+    - GTMSessionFetcher (~> 1.1)
+  - GoogleAPIClient/Drive (1.0.4):
+    - GoogleAPIClient/Core
+    - GTMSessionFetcher (~> 1.1)
+  - GTMOAuth2 (1.1.1):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.4):
+    - GTMSessionFetcher/Full (= 1.1.4)
+  - GTMSessionFetcher/Core (1.1.4)
+  - GTMSessionFetcher/Full (1.1.4):
+    - GTMSessionFetcher/Core (= 1.1.4)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - SVProgressHUD (2.0.3)
+
+DEPENDENCIES:
+  - GoogleAPIClient/Drive
+  - GTMOAuth2
+  - SDWebImage (~> 3.8)
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  GoogleAPIClient: 4dedb6af613eb7d171814c343f8a82ee5411e13b
+  GTMOAuth2: bdb12f3e0d2110bfe585f6151230b883beb4d042
+  GTMSessionFetcher: 174bc61d5238f81f9ddb807b0b0170420f67de85
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+
+PODFILE CHECKSUM: a0703d252158baa29b44158bbf342a750e8c4396
+
+COCOAPODS: 1.0.1

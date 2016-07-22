@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		490337EF1D40DC4E003C40C5 /* dog1.png in Resources */ = {isa = PBXBuildFile; fileRef = 490337EA1D40DC4E003C40C5 /* dog1.png */; };
+		490337F01D40DC4E003C40C5 /* dog2.png in Resources */ = {isa = PBXBuildFile; fileRef = 490337EB1D40DC4E003C40C5 /* dog2.png */; };
+		490337F11D40DC4E003C40C5 /* dog3.png in Resources */ = {isa = PBXBuildFile; fileRef = 490337EC1D40DC4E003C40C5 /* dog3.png */; };
+		490337F21D40DC4E003C40C5 /* dog4.png in Resources */ = {isa = PBXBuildFile; fileRef = 490337ED1D40DC4E003C40C5 /* dog4.png */; };
+		490337F31D40DC4E003C40C5 /* dog5.png in Resources */ = {isa = PBXBuildFile; fileRef = 490337EE1D40DC4E003C40C5 /* dog5.png */; };
+		492BB3FF1D3AC1770059FE40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 492BB3FE1D3AC1770059FE40 /* main.m */; };
+		492BB4021D3AC1770059FE40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 492BB4011D3AC1770059FE40 /* AppDelegate.m */; };
+		492BB4051D3AC1770059FE40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 492BB4041D3AC1770059FE40 /* ViewController.m */; };
+		492BB4081D3AC1770059FE40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492BB4061D3AC1770059FE40 /* Main.storyboard */; };
+		492BB40A1D3AC1770059FE40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492BB4091D3AC1770059FE40 /* Assets.xcassets */; };
+		492BB40D1D3AC1770059FE40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492BB40B1D3AC1770059FE40 /* LaunchScreen.storyboard */; };
+		492BB41C1D3ACB3B0059FE40 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 492BB41A1D3ACB3B0059FE40 /* ListTableViewController.m */; };
+		492BB41D1D3ACB3B0059FE40 /* ListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 492BB41B1D3ACB3B0059FE40 /* ListTableViewController.xib */; };
+		492BB4211D3AD7950059FE40 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 492BB41F1D3AD7950059FE40 /* PhotoViewController.m */; };
+		492BB4221D3AD7950059FE40 /* PhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 492BB4201D3AD7950059FE40 /* PhotoViewController.xib */; };
+		492BB4241D3AD9740059FE40 /* testFile.png in Resources */ = {isa = PBXBuildFile; fileRef = 492BB4231D3AD9740059FE40 /* testFile.png */; };
+		49FD11491D40C9A2007A3326 /* cellCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FD11471D40C9A2007A3326 /* cellCollectionViewCell.m */; };
+		49FD114A1D40C9A2007A3326 /* cellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49FD11481D40C9A2007A3326 /* cellCollectionViewCell.xib */; };
+		49FD11531D40CAC2007A3326 /* UploadCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FD11511D40CAC2007A3326 /* UploadCollectionViewController.m */; };
+		49FD11541D40CAC2007A3326 /* UploadCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49FD11521D40CAC2007A3326 /* UploadCollectionViewController.xib */; };
+		7904429328B0880082409AEA /* libPods-GoogleDrivePOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A2A63EF22ECEF7528BF4C4 /* libPods-GoogleDrivePOC.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		490337EA1D40DC4E003C40C5 /* dog1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog1.png; sourceTree = "<group>"; };
+		490337EB1D40DC4E003C40C5 /* dog2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog2.png; sourceTree = "<group>"; };
+		490337EC1D40DC4E003C40C5 /* dog3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog3.png; sourceTree = "<group>"; };
+		490337ED1D40DC4E003C40C5 /* dog4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog4.png; sourceTree = "<group>"; };
+		490337EE1D40DC4E003C40C5 /* dog5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog5.png; sourceTree = "<group>"; };
+		492BB3FA1D3AC1770059FE40 /* GoogleDrivePOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleDrivePOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		492BB3FE1D3AC1770059FE40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		492BB4001D3AC1770059FE40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		492BB4011D3AC1770059FE40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		492BB4031D3AC1770059FE40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		492BB4041D3AC1770059FE40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		492BB4071D3AC1770059FE40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		492BB4091D3AC1770059FE40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		492BB40C1D3AC1770059FE40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		492BB40E1D3AC1770059FE40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492BB4191D3ACB3B0059FE40 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		492BB41A1D3ACB3B0059FE40 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		492BB41B1D3ACB3B0059FE40 /* ListTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewController.xib; sourceTree = "<group>"; };
+		492BB41E1D3AD7950059FE40 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		492BB41F1D3AD7950059FE40 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		492BB4201D3AD7950059FE40 /* PhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoViewController.xib; sourceTree = "<group>"; };
+		492BB4231D3AD9740059FE40 /* testFile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testFile.png; sourceTree = "<group>"; };
+		49FD11461D40C9A2007A3326 /* cellCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellCollectionViewCell.h; sourceTree = "<group>"; };
+		49FD11471D40C9A2007A3326 /* cellCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellCollectionViewCell.m; sourceTree = "<group>"; };
+		49FD11481D40C9A2007A3326 /* cellCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellCollectionViewCell.xib; sourceTree = "<group>"; };
+		49FD11501D40CAC2007A3326 /* UploadCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadCollectionViewController.h; sourceTree = "<group>"; };
+		49FD11511D40CAC2007A3326 /* UploadCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadCollectionViewController.m; sourceTree = "<group>"; };
+		49FD11521D40CAC2007A3326 /* UploadCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UploadCollectionViewController.xib; sourceTree = "<group>"; };
+		63A2A63EF22ECEF7528BF4C4 /* libPods-GoogleDrivePOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleDrivePOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60935D75D1B3CD0C312BA89 /* Pods-GoogleDrivePOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDrivePOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDrivePOC/Pods-GoogleDrivePOC.debug.xcconfig"; sourceTree = "<group>"; };
+		C3CF123C1280FF989BC83266 /* Pods-GoogleDrivePOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDrivePOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDrivePOC/Pods-GoogleDrivePOC.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		492BB3F71D3AC1770059FE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7904429328B0880082409AEA /* libPods-GoogleDrivePOC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		364305AAB6508BFDC67141B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A60935D75D1B3CD0C312BA89 /* Pods-GoogleDrivePOC.debug.xcconfig */,
+				C3CF123C1280FF989BC83266 /* Pods-GoogleDrivePOC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		492BB3F11D3AC1770059FE40 = {
+			isa = PBXGroup;
+			children = (
+				490337EA1D40DC4E003C40C5 /* dog1.png */,
+				490337EB1D40DC4E003C40C5 /* dog2.png */,
+				490337EC1D40DC4E003C40C5 /* dog3.png */,
+				490337ED1D40DC4E003C40C5 /* dog4.png */,
+				490337EE1D40DC4E003C40C5 /* dog5.png */,
+				492BB4231D3AD9740059FE40 /* testFile.png */,
+				492BB3FC1D3AC1770059FE40 /* GoogleDrivePOC */,
+				492BB3FB1D3AC1770059FE40 /* Products */,
+				364305AAB6508BFDC67141B7 /* Pods */,
+				61C74E0769E0963DCB0F0C90 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		492BB3FB1D3AC1770059FE40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				492BB3FA1D3AC1770059FE40 /* GoogleDrivePOC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		492BB3FC1D3AC1770059FE40 /* GoogleDrivePOC */ = {
+			isa = PBXGroup;
+			children = (
+				492BB4001D3AC1770059FE40 /* AppDelegate.h */,
+				492BB4011D3AC1770059FE40 /* AppDelegate.m */,
+				492BB4031D3AC1770059FE40 /* ViewController.h */,
+				492BB4041D3AC1770059FE40 /* ViewController.m */,
+				492BB4061D3AC1770059FE40 /* Main.storyboard */,
+				492BB4091D3AC1770059FE40 /* Assets.xcassets */,
+				492BB40B1D3AC1770059FE40 /* LaunchScreen.storyboard */,
+				492BB40E1D3AC1770059FE40 /* Info.plist */,
+				492BB3FD1D3AC1770059FE40 /* Supporting Files */,
+				492BB4191D3ACB3B0059FE40 /* ListTableViewController.h */,
+				492BB41A1D3ACB3B0059FE40 /* ListTableViewController.m */,
+				492BB41B1D3ACB3B0059FE40 /* ListTableViewController.xib */,
+				492BB41E1D3AD7950059FE40 /* PhotoViewController.h */,
+				492BB41F1D3AD7950059FE40 /* PhotoViewController.m */,
+				492BB4201D3AD7950059FE40 /* PhotoViewController.xib */,
+				49FD11461D40C9A2007A3326 /* cellCollectionViewCell.h */,
+				49FD11471D40C9A2007A3326 /* cellCollectionViewCell.m */,
+				49FD11481D40C9A2007A3326 /* cellCollectionViewCell.xib */,
+				49FD11501D40CAC2007A3326 /* UploadCollectionViewController.h */,
+				49FD11511D40CAC2007A3326 /* UploadCollectionViewController.m */,
+				49FD11521D40CAC2007A3326 /* UploadCollectionViewController.xib */,
+			);
+			path = GoogleDrivePOC;
+			sourceTree = "<group>";
+		};
+		492BB3FD1D3AC1770059FE40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				492BB3FE1D3AC1770059FE40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61C74E0769E0963DCB0F0C90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63A2A63EF22ECEF7528BF4C4 /* libPods-GoogleDrivePOC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		492BB3F91D3AC1770059FE40 /* GoogleDrivePOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 492BB4111D3AC1770059FE40 /* Build configuration list for PBXNativeTarget "GoogleDrivePOC" */;
+			buildPhases = (
+				5E6EF387CC430621DC799851 /* [CP] Check Pods Manifest.lock */,
+				492BB3F61D3AC1770059FE40 /* Sources */,
+				492BB3F71D3AC1770059FE40 /* Frameworks */,
+				492BB3F81D3AC1770059FE40 /* Resources */,
+				0FD2D9D52A0BE1406495DCB3 /* [CP] Embed Pods Frameworks */,
+				53FAD4917613D4601297B23E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleDrivePOC;
+			productName = GoogleDrivePOC;
+			productReference = 492BB3FA1D3AC1770059FE40 /* GoogleDrivePOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		492BB3F21D3AC1770059FE40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Avira Operations GmbH & Co. KG";
+				TargetAttributes = {
+					492BB3F91D3AC1770059FE40 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 492BB3F51D3AC1770059FE40 /* Build configuration list for PBXProject "GoogleDrivePOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 492BB3F11D3AC1770059FE40;
+			productRefGroup = 492BB3FB1D3AC1770059FE40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				492BB3F91D3AC1770059FE40 /* GoogleDrivePOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		492BB3F81D3AC1770059FE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492BB40D1D3AC1770059FE40 /* LaunchScreen.storyboard in Resources */,
+				490337F01D40DC4E003C40C5 /* dog2.png in Resources */,
+				490337F11D40DC4E003C40C5 /* dog3.png in Resources */,
+				49FD114A1D40C9A2007A3326 /* cellCollectionViewCell.xib in Resources */,
+				490337EF1D40DC4E003C40C5 /* dog1.png in Resources */,
+				490337F21D40DC4E003C40C5 /* dog4.png in Resources */,
+				492BB4241D3AD9740059FE40 /* testFile.png in Resources */,
+				492BB4221D3AD7950059FE40 /* PhotoViewController.xib in Resources */,
+				492BB40A1D3AC1770059FE40 /* Assets.xcassets in Resources */,
+				492BB4081D3AC1770059FE40 /* Main.storyboard in Resources */,
+				490337F31D40DC4E003C40C5 /* dog5.png in Resources */,
+				492BB41D1D3ACB3B0059FE40 /* ListTableViewController.xib in Resources */,
+				49FD11541D40CAC2007A3326 /* UploadCollectionViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FD2D9D52A0BE1406495DCB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDrivePOC/Pods-GoogleDrivePOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53FAD4917613D4601297B23E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDrivePOC/Pods-GoogleDrivePOC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E6EF387CC430621DC799851 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		492BB3F61D3AC1770059FE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FD11531D40CAC2007A3326 /* UploadCollectionViewController.m in Sources */,
+				492BB4051D3AC1770059FE40 /* ViewController.m in Sources */,
+				492BB4021D3AC1770059FE40 /* AppDelegate.m in Sources */,
+				492BB3FF1D3AC1770059FE40 /* main.m in Sources */,
+				492BB41C1D3ACB3B0059FE40 /* ListTableViewController.m in Sources */,
+				492BB4211D3AD7950059FE40 /* PhotoViewController.m in Sources */,
+				49FD11491D40C9A2007A3326 /* cellCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		492BB4061D3AC1770059FE40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				492BB4071D3AC1770059FE40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		492BB40B1D3AC1770059FE40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				492BB40C1D3AC1770059FE40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		492BB40F1D3AC1770059FE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		492BB4101D3AC1770059FE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		492BB4121D3AC1770059FE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A60935D75D1B3CD0C312BA89 /* Pods-GoogleDrivePOC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleDrivePOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.avira.GoogleDrivePOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		492BB4131D3AC1770059FE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3CF123C1280FF989BC83266 /* Pods-GoogleDrivePOC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleDrivePOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.avira.GoogleDrivePOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		492BB3F51D3AC1770059FE40 /* Build configuration list for PBXProject "GoogleDrivePOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492BB40F1D3AC1770059FE40 /* Debug */,
+				492BB4101D3AC1770059FE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		492BB4111D3AC1770059FE40 /* Build configuration list for PBXNativeTarget "GoogleDrivePOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492BB4121D3AC1770059FE40 /* Debug */,
+				492BB4131D3AC1770059FE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 492BB3F21D3AC1770059FE40 /* Project object */;
+}

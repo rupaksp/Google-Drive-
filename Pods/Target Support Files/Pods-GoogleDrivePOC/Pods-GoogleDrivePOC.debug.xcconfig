@@ -1,0 +1,8 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 $(inherited) GTM_OAUTH2_USE_FRAMEWORK_IMPORTS=1 $(inherited) GTL_USE_FRAMEWORK_IMPORTS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GTMOAuth2" "${PODS_ROOT}/Headers/Public/GTMSessionFetcher" "${PODS_ROOT}/Headers/Public/GoogleAPIClient" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/SVProgressHUD"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/GTMOAuth2" "$PODS_CONFIGURATION_BUILD_DIR/GTMSessionFetcher" "$PODS_CONFIGURATION_BUILD_DIR/GoogleAPIClient" "$PODS_CONFIGURATION_BUILD_DIR/SDWebImage" "$PODS_CONFIGURATION_BUILD_DIR/SVProgressHUD"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/GTMOAuth2" -isystem "${PODS_ROOT}/Headers/Public/GTMSessionFetcher" -isystem "${PODS_ROOT}/Headers/Public/GoogleAPIClient" -isystem "${PODS_ROOT}/Headers/Public/SDWebImage" -isystem "${PODS_ROOT}/Headers/Public/SVProgressHUD"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"GTMOAuth2" -l"GTMSessionFetcher" -l"GoogleAPIClient" -l"SDWebImage" -l"SVProgressHUD" -framework "ImageIO" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods
